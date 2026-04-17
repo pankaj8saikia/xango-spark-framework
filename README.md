@@ -2,6 +2,14 @@
 
 This project is a Maven archetype that generates a Spark + Scala starter project.
 
+## Architecture
+
+The generated project follows a controller-driven workflow pattern where the controller selects a workflow, and each workflow runs its own extract, transform, and load stages.
+
+![Spark archetype workflow diagram](docs/images/spark-archetype-flow.png)
+
+In the generated archetype, `Controller` acts as the entry point, dispatches execution to a workflow, and each workflow owns the ETL-style sequence that processes the data end to end.
+
 ## Install the archetype locally
 
 ```bash
