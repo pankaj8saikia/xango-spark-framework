@@ -42,6 +42,7 @@
         <scala.version>2.12.18</scala.version>
         <spark.version>3.5.1</spark.version>
         <archetype-packaging.version>3.3.1</archetype-packaging.version>
+        <gpg.executable>gpg</gpg.executable>
     </properties>
 
     <build>
@@ -79,6 +80,12 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <gpgArguments>
+                        <arg>--pinentry-mode</arg>
+                        <arg>loopback</arg>
+                    </gpgArguments>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
