@@ -3,7 +3,7 @@
 
     <groupId>io.github.pankaj8saikia</groupId>
     <artifactId>xango-spark-parent</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <name>Xango Spark Parent</name>
@@ -28,7 +28,8 @@
         <connection>scm:git:git@github.com:pankaj8saikia/xango-spark-framework.git</connection>
         <developerConnection>scm:git:git@github.com:pankaj8saikia/xango-spark-framework.git</developerConnection>
         <url>https://github.com/pankaj8saikia/xango-spark-framework</url>
-    </scm>
+      <tag>xango-spark-parent-1.0.0</tag>
+  </scm>
 
     <modules>
         <module>xango-spark-lib</module>
