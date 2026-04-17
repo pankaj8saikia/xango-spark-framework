@@ -8,8 +8,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
-    <name>Spark Scala Maven Archetype</name>
-    <description>Maven archetype for Spark applications written in Scala.</description>
+    <name>Xango Spark Scala Maven Archetype</name>
+    <description>Xango Maven archetype for Spark applications written in Scala.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
